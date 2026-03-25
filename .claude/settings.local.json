@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(printf \"hello world 123\\\\nNode stream error 42\\\\n\")",
+      "Bash(node task6/index.js)",
+      "Bash(npx eslint:*)"
+    ]
+  }
+}
